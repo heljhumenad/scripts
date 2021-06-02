@@ -31,3 +31,6 @@ cd config.vim
 echo "Move init.vim to .vimrc folder for Neovim"
 sudo mv init.vim ~/.config/nvim/
 
+echo "Install Docker"
+sudo pacman -Sy docker
+
